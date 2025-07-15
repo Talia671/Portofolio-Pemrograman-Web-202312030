@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pendaftaran Mahasiswa Baru</title>
+</head>
+<body>
+  <!-- Logo Kampus di bagian atas -->
+  <img src="logo stitek.png" alt="Logo Kampus" width="150">
+
+  <!-- Judul Halaman -->
+  <h1>Formulir Pendaftaran Mahasiswa Baru</h1>
+
+  <!-- Link ke informasi kampus -->
+  <p><a href="https://stitek.ac.id/">Kunjungi laman informasi kampus</a></p>
+
+  <!-- Formulir dimulai -->
+  <form action="#" method="post">
+  
+    <!-- Data Pribadi -->
+    <fieldset>
+      <legend>Data Pribadi</legend>
+
+      <label for="nama">Nama Lengkap:</label><br>
+      <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" placeholder="contoh@email.com" required><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" id="pria" name="gender" value="Pria" required>
+      <label for="pria">Pria</label>
+      <input type="radio" id="wanita" name="gender" value="Wanita">
+      <label for="wanita">Wanita</label><br><br>
+    </fieldset>
+
+    <!-- Hobi -->
+    <fieldset>
+      <legend>Hobi</legend>
+      <label><input type="checkbox" name="hobi" value="Membaca"> Membaca</label><br>
+      <label><input type="checkbox" name="hobi" value="Olahraga"> Olahraga</label><br>
+      <label><input type="checkbox" name="hobi" value="Musik"> Musik</label><br>
+      <label><input type="checkbox" name="hobi" value="Lainnya"> Lainnya</label><br><br>
+    </fieldset>
+
+    <!-- Pilihan Jurusan -->
+    <fieldset>
+      <legend>Pilihan Jurusan</legend>
+      <label for="jurusan">Pilih Jurusan:</label><br>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">--Pilih Jurusan--</option>
+        <option value="TI">Teknik Informatika</option>
+        <option value="MI">Manajemen</option>
+        <option value="AK">Akuntansi</option>
+      </select><br><br>
+    </fieldset>
+
+    <!-- Alamat -->
+    <fieldset>
+      <legend>Alamat</legend>
+      <label for="alamat">Alamat Lengkap:</label><br>
+      <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Tulis alamat lengkap di sini..."></textarea><br><br>
+    </fieldset>
+
+    <!-- Tombol Submit -->
+    <button type="submit">Kirim Formulir</button>
+  </form>
+
+  <!-- Komentar HTML -->
+  <!-- 
+    Formulir ini terdiri dari bagian: Data Pribadi, Hobi, Jurusan, dan Alamat.
+    Pastikan input 'required' digunakan untuk data wajib diisi.
+  -->
+</body>
+</html>
