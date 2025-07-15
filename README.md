@@ -337,12 +337,12 @@ Untuk kontribusi atau perbaikan:
 
 ## 📞 Contact
 
-**M. Ammar Alfarabi**
+**Nur Taliyah**
 
-- Email: alfarabibravo8@gmail.com
+- Email: nurtaliyah164@gmail.com
 - Kampus: Sekolah Tinggi Teknologi Bontang
-- NIM: 202312056
-- Instagram: @blck_sunday
+- NIM: 202312030
+- Instagram: @nthl.yh
 
 ## 📄 License
 
